@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+    color: #0f34c7;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin-top: 80px;
+    background: rgba(44, 62, 80, 0.85);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    padding: 40px 30px;
+    display: inline-block;
+}
+
+.button {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px 40px;
+    background: linear-gradient(90deg, #4CAF50 0%, #00b894 100%);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 4px 14px rgba(76, 175, 80, 0.2);
+    border: none;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, #45a049 0%, #00cec9 100%);
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 24px rgba(76, 175, 80, 0.3);
+}
+
+form input, form button {
+    margin: 8px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #636e72;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+form input:focus {
+    border-color: #00b894;
+    box-shadow: 0 0 8px #00b89455;
+}
+
+form button {
+    background: linear-gradient(90deg, #0984e3 0%, #00b894 100%);
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+form button:hover {
+    background: linear-gradient(90deg, #00b894 0%, #0984e3 100%);
+    transform: scale(1.05);
+}
